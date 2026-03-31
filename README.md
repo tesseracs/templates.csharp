@@ -4,4 +4,8 @@ Starter project for [Tesseracs](https://github.com/tesseracs) chat sessions.
 
 Clone URL: `https://github.com/tesseracs/templates.csharp`
 
-This repository is a minimal default; extend it in your session as needed.
+## Layout
+
+- `Program.cs` — top-level entry; `using TesseracsTemplate`.
+- `Greeter.cs` — class in namespace `TesseracsTemplate`.
+- `run.sh` — `dotnet restore` and `dotnet run`.

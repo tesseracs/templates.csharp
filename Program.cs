@@ -1,1 +1,4 @@
-Console.WriteLine("Hello from Tesseracs (C# template)");
+using TesseracsTemplate;
+
+var g = new Greeter("Tesseracs");
+Console.WriteLine(g.Greet());
