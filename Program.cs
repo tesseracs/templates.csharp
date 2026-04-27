@@ -1,4 +1,5 @@
-using TesseracsTemplate;
+using TesseracsTemplate.Models;
+using TesseracsTemplate.Services;
 
-var g = new Greeter("Tesseracs");
-Console.WriteLine(g.Greet());
+var plan = SessionPlan.Sample();
+Console.WriteLine(PlanFormatter.Render(plan));

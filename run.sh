@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 dotnet restore
-dotnet run --no-restore
+dotnet run --project tesseracs-template.csproj --no-restore
